@@ -302,3 +302,74 @@ Rendering home/404
 Rendered layouts/shared/_xhtml_start_document (0.3ms)
 Rendered layouts/shared/_xhtml_head (0.2ms)
 Completed in 12ms (View: 9 | 200 OK [http://localhost/javascripts/vendor/nyt_article_skimmer.js]
+
+
+Processing HomeController#404 (for 127.0.0.1 at 2009-03-28 15:26:42) [GET]
+  Parameters: {"path"=>[]}
+Rendering template within layouts/application
+Rendering home/404
+Rendered layouts/shared/_xhtml_start_document (0.4ms)
+Rendered layouts/shared/_xhtml_head (0.3ms)
+Completed in 36ms (View: 32 | 200 OK [http://localhost/]
+
+
+Processing HomeController#404 (for 127.0.0.1 at 2009-03-28 15:26:42) [GET]
+  Parameters: {"path"=>["javascripts", "vendor", "nyt_article_skimmer.js"]}
+Rendering template within layouts/application
+Rendering home/404
+Rendered layouts/shared/_xhtml_start_document (0.3ms)
+Rendered layouts/shared/_xhtml_head (0.2ms)
+Completed in 10ms (View: 8 | 200 OK [http://localhost/javascripts/vendor/nyt_article_skimmer.js]
+
+
+Processing HomeController#404 (for 127.0.0.1 at 2009-03-28 15:34:45) [GET]
+  Parameters: {"path"=>[]}
+Rendering template within layouts/application
+Rendering home/404
+Rendered layouts/shared/_xhtml_start_document (0.3ms)
+Rendered layouts/shared/_xhtml_head (0.2ms)
+Completed in 12ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing HomeController#404 (for 127.0.0.1 at 2009-03-28 15:34:45) [GET]
+  Parameters: {"path"=>["javascripts", "vendor", "nyt_article_skimmer.js"]}
+Rendering template within layouts/application
+Rendering home/404
+Rendered layouts/shared/_xhtml_start_document (0.3ms)
+Rendered layouts/shared/_xhtml_head (0.2ms)
+Completed in 21ms (View: 10 | 200 OK [http://localhost/javascripts/vendor/nyt_article_skimmer.js]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-03-28 15:36:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/shared/_xhtml_start_document (0.4ms)
+Rendered layouts/shared/_xhtml_head (0.3ms)
+Completed in 43ms (View: 41 | 200 OK [http://localhost/]
+
+
+Processing HomeController#404 (for 127.0.0.1 at 2009-03-28 15:36:23) [GET]
+  Parameters: {"path"=>["javascripts", "vendor", "nyt_article_skimmer.js"]}
+Rendering template within layouts/application
+Rendering home/404
+Rendered layouts/shared/_xhtml_start_document (0.3ms)
+Rendered layouts/shared/_xhtml_head (0.2ms)
+Completed in 13ms (View: 9 | 200 OK [http://localhost/javascripts/vendor/nyt_article_skimmer.js]
+
+
+Processing HomeController#404 (for 127.0.0.1 at 2009-03-28 15:36:28) [GET]
+  Parameters: {"path"=>["foo"]}
+Rendering template within layouts/application
+Rendering home/404
+Rendered layouts/shared/_xhtml_start_document (0.3ms)
+Rendered layouts/shared/_xhtml_head (0.2ms)
+Completed in 11ms (View: 8 | 200 OK [http://localhost/foo]
+
+
+Processing HomeController#404 (for 127.0.0.1 at 2009-03-28 15:36:28) [GET]
+  Parameters: {"path"=>["javascripts", "vendor", "nyt_article_skimmer.js"]}
+Rendering template within layouts/application
+Rendering home/404
+Rendered layouts/shared/_xhtml_start_document (0.3ms)
+Rendered layouts/shared/_xhtml_head (0.2ms)
+Completed in 10ms (View: 8 | 200 OK [http://localhost/javascripts/vendor/nyt_article_skimmer.js]
