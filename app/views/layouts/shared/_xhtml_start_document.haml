@@ -1,0 +1,7 @@
+- @strict_xhtml = '"xml:lang" => "en-US", :lang => "en-US", :xmlns => "http://www.w3.org/1999/xhtml"'
+- @body_tag_base_name = (controller.controller_name + controller.action_name.titleize).gsub(/\s/, '_')
+- @id_for_container = 'contentArea'
+- @base_class_name_for_container = 'container'
+-# Don't use the XML prolog as it throws IE 6 into Quirks Mode.
+-# !!!XML
+!!!strict

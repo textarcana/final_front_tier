@@ -1,0 +1,11 @@
+-# Note that Bundle Fu assigns a media type of "all" to ALL CSS bundles.
+-# This cannot be overridden.  To change it, you have to 
+-# hand-edit line 125 of /vendor/plugins/bundle-fu/lib/bundle_fu.rb
+= bundle :name => 'global_bundle' do
+  = stylesheet_link_tag 'screen.css', :media => 'screen, projection'
+
+ = stylesheet_link_tag 'print.css', :media => 'print'
+
+/[if IE]
+  -# = javascript_include_tag 'ie'
+  = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
