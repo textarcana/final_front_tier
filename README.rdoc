@@ -2,3 +2,5 @@
 
   User Experience is the 'fourth' or 'final' tier of the application stack.
                   -- Ralph Hockens
+
+This is a Rails application that will serve as a data facade and middle tier for supporting the development of JavaScript applications.
