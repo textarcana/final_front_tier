@@ -7,6 +7,16 @@ module CmsHelper
 
   BASE_TITLE = "Final Front Tier v0.0.0"
 
+  # Generate a list of attributes for the HTML tag
+  def strict_xhtml_attributes
+    {"xml:lang" => "en-US", :lang => "en-US", :xmlns => "http://www.w3.org/1999/xhtml"}
+  end
+
+  # Create unique ID for the body tag by concatenating the controller and action names
+  def page_name
+    (controller.controller_name + controller.action_name.titleize).gsub(/\s/, '_')
+  end
+
   # Parse and format a page title.
   # If no page title is specified, construct one on the fly from controller and action names
 
