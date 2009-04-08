@@ -32,4 +32,9 @@ module CmsHelper
     
   end
 
+  # Retrieve the human-readable name of the application
+  def name_of_this_site
+    BASE_TITLE
+  end
+
 end

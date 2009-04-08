@@ -8,6 +8,7 @@
     /[if IE]
       = stylesheet_link_tag 'compiled/ie.css', :media => 'screen, projection'
   %body{ :id => page_name}
+    %h1= name_of_this_site
     #message
       
     = yield
